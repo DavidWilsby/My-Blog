@@ -1,5 +1,5 @@
-Portfolio
+My BLog
 
-HTML - Blog example
+Blog written in HTML.
 
 Author: David Wilsby
