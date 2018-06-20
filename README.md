@@ -1,4 +1,4 @@
-My BLog
+My Blog
 
 Blog written in HTML.
 
