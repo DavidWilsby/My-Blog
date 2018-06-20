@@ -1,0 +1,149 @@
+@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
+
+body {
+	background-color: #ededed;
+	color: #555;
+	margin: 0;
+
+	font-family: 'Montserrat', sans-serif;
+}
+a {
+	color: #1abc9c;
+	text-decoration: none;
+}
+a:hover {
+	color: rgb(0, 255, 17);
+}
+h1,
+h2,
+h3,
+h4 {
+	color: #333;
+}
+p {
+	line-height: 1.5;
+}
+#header {
+	background: linear-gradient(to bottom right, green, rgb(191, 255, 0));
+	height: 100px;
+	line-height: 100px;
+}
+#header a {
+	color: white;
+	text-decoration: none;
+	text-transform: uppercase;
+	letter-spacing: 0.1em;
+}
+#header a:hover {
+	color: #222;
+}
+#header-title {
+	display: block;
+	float: left;
+	font-size: 20px;
+	font-weight: bold;
+}
+#header-nav {
+	display: block;
+	float: right;
+	margin-top: 0;
+	font-weight: bold;
+}
+#header-nav li {
+	display: inline;
+	padding-left: 20px;
+}
+.container {
+	max-width: 1000px;
+	margin: 0 auto;
+}
+.post,
+.post:nth-child(even) {
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 20px;
+	margin-bottom: 20px;
+	margin-top: 20px;
+	background-color: rgb(232, 232, 232);
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	border-radius: 20px;
+}
+.post-author img {
+	width: 50px;
+	height: 50px;
+	vertical-align: middle;
+	border-radius: 50%;
+}
+.about-author img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 40%;
+	border-radius: 50%;
+}
+.about {
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+	padding: 60px 0;
+	text-align: center;
+}
+.post-author span {
+	margin-left: 16px;
+	font-weight: bold;
+}
+.post-date {
+	color: #a0a0a0;
+
+	font-size: 14px;
+	font-weight: bold;
+	text-transform: uppercase;
+	letter-spacing: 0.1em;
+}
+#footer {
+	background: linear-gradient(to top left, rgb(0, 0, 0), rgba(38, 38, 38, 0.79));
+	padding: 50px;
+}
+#footer h4 {
+	color: white;
+	text-transform: uppercase;
+	letter-spacing: 0.1em;
+}
+#footer li {
+	display: inline;
+}
+#footer p {
+	color: white;
+}
+.column {
+	min-width: 300px;
+	display: inline-block;
+	vertical-align: top;
+}
+.fa {
+	padding: 15px;
+	font-size: 1em;
+	border-radius: 50%;
+	text-decoration: none;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+	opacity: 0.7;
+}
+
+/* Twitter */
+.fa-twitter {
+	background: #444;
+	color: white;
+}
+/* GitHub */
+.fa-github {
+	background: #444;
+	color: white;
+}
+/* LinkedIn */
+.fa-linkedin {
+	background: #444;
+	color: white;
+}
